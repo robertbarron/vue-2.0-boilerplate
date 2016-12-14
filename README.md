@@ -66,9 +66,8 @@ It will load:
  - vue-i18n
  - vuex
  - axios
- - bootstrap
  - jquery
- - font-awesome
+ - vuetify
 
 Don't like one of those packages?
 Just strip them from the `bootstrap` and the `package.json`-files.
