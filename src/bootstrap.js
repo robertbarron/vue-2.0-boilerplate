@@ -136,26 +136,39 @@ window.$ = window.jQuery = jQuery;
 
 
 /* ============
- * Bootstrap
+ * Vuetify
+ * ============
+ *
+ * Require Vuetify
+ *
+ * http://vuetifyjs.com/
+ */
+
+import Vuetify from 'vuetify' 
+
+Vue.use(Vuetify);
+/* ============
+ * Bootstrap (REMOVED)
  * ============
  *
  * Require bootstrap
  *
  * http://getbootstrap.com/
  */
-require('bootstrap');
-require('bootstrap/less/bootstrap.less');
+// require('bootstrap');
+// require('bootstrap/less/bootstrap.less');
 
 
 /* ============
- * Font Awesome
+ * Font Awesome  (REMOVED)
  * ============
  *
  * Require font-awesome
  *
  * http://http://fontawesome.io/
  */
-require('font-awesome/less/font-awesome.less');
+
+// require('font-awesome/less/font-awesome.less');
 
 
 /* ============
@@ -173,7 +186,7 @@ require('font-awesome/less/font-awesome.less');
  *
  * http://stylus-lang.com/
  */
-require('./assets/stylus/app.styl');
+/* require('./assets/stylus/app.styl'); */
 
 
 export default {

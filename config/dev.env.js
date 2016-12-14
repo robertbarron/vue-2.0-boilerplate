@@ -3,5 +3,5 @@ var prodEnv = require('./prod.env');
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
-  API_LOCATION: '"http://example.dev/api/v1"',
+  API_LOCATION: '"//192.168.171.4:8080/GBMDigital/api/"',
 });

@@ -29,9 +29,16 @@ export default (user) => {
    *     failed(error);
    *   });
    */
-  if (!user.email || !user.password) {
-    failed();
-  } else {
-    success('RandomGeneratedToken');
-  }
+  Vue.$http.post('Security/GetUserKey', { user: user.email })
+    .then((response) => {
+      success(response);
+    })
+    .catch((error) => {
+      failed(error);
+    });
+  // if (!user.email || !user.password) {
+  //   failed();
+  // } else {
+  //   success('RandomGeneratedToken');
+  // }
 };
