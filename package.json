@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petervmeijgaard/vue-2-boilerplate.git"
+    "url": "git+https://github.com/robertbarron/vue-2.0-boilerplate"
   },
   "keywords": [
     "Vue",
@@ -25,12 +25,8 @@
     "Page",
     "Application"
   ],
-  "author": "Peter van Meijgaard <petervanmeijgaard@hotmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/petervmeijgaard/vue-2-boilerplate/issues"
-  },
-  "homepage": "https://github.com/petervmeijgaard/vue-2-boilerplate#readme",
+  "homepage": "https://github.com/robertbarron/vue-2.0-boilerplate",
   "dependencies": {
     "axios": "^0.15.2",
     "babel-runtime": "^6.0.0",

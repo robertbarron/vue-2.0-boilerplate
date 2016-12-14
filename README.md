@@ -1,7 +1,7 @@
 # vue-2-boilerplate
 > A boilerplate for building medium to large Vue 2.0 single page applications
 
-This boilerplate is based on the Vue webpack template.
+Modified version from Peter van Meijgaard. This boilerplate is based on the Vue webpack template.
 Common topics are discussed in the Vuejs [docs](http://vuejs-templates.github.io/webpack). Make sure to read it!
 
 ## Usage
