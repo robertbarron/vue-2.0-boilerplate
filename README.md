@@ -145,14 +145,6 @@ Last but not least we get an `utils`-directory.
 Here you can place handy utils you want to use inside your application.
 Out of the box it comes with a `loader`-util which will prevent the relative directory hell.
 
-## Got questions or improvements? ##
-Feel free to hit me up on:
- - [Gitter](https://gitter.im/petervmeijgaard)
- - [GitHub](https://github.com/petervmeijgaard)
- - [Twitter](https://twitter.com/petervmeijgaard)
-
-Or create an [issue](https://github.com/petervmeijgaard/vue-2-boilerplate/issues)
-
 ## Fork It And Make Your Own ##
 What are you waiting for?!
 Make something awesome!
